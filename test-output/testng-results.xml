@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-17T19:36:40Z" name="Default suite" finished-at="2022-02-17T19:36:45Z" duration-ms="5087">
+    <groups>
+    </groups>
+    <test started-at="2022-02-17T19:36:40Z" name="Default test" finished-at="2022-02-17T19:36:45Z" duration-ms="5087">
+      <class name="dev.restPractice.ZipTest">
+        <test-method is-config="true" signature="setBaseUri()[pri:0, instance:dev.restPractice.ZipTest@7d3d101b]" started-at="2022-02-17T19:36:39Z" name="setBaseUri" finished-at="2022-02-17T19:36:40Z" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseUri -->
+        <test-method signature="testPlaceByZip(java.lang.String, java.lang.String)[pri:0, instance:dev.restPractice.ZipTest@7d3d101b]" started-at="2022-02-17T19:36:40Z" name="testPlaceByZip" data-provider="stateByZip" finished-at="2022-02-17T19:36:43Z" duration-ms="2716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlaceByZip -->
+        <test-method signature="testPlaceByZip(java.lang.String, java.lang.String)[pri:0, instance:dev.restPractice.ZipTest@7d3d101b]" started-at="2022-02-17T19:36:43Z" name="testPlaceByZip" data-provider="stateByZip" finished-at="2022-02-17T19:36:44Z" duration-ms="1110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19701]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delaware]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlaceByZip -->
+        <test-method signature="testPlaceByZip(java.lang.String, java.lang.String)[pri:0, instance:dev.restPractice.ZipTest@7d3d101b]" started-at="2022-02-17T19:36:44Z" name="testPlaceByZip" data-provider="stateByZip" finished-at="2022-02-17T19:36:45Z" duration-ms="1227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[06001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Connecticut]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlaceByZip -->
+      </class> <!-- dev.restPractice.ZipTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
